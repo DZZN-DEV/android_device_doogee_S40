@@ -15,6 +15,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from S40 device
 $(call inherit-product, device/doogee/S40/device.mk)
 
+# Inherit common product files.
+$(call inherit-product, vendor/pb/config/common.mk)
+
 PRODUCT_DEVICE := S40
 PRODUCT_NAME := omni_S40
 PRODUCT_BRAND := DOOGEE
