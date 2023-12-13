@@ -4,7 +4,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
 DEVICE_PATH := device/doogee/S40
 
 # For building with minimal manifest
@@ -93,5 +92,4 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 
 # PBRP Configuration
-
 PB_GO := TRUE
