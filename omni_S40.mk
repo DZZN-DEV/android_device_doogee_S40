@@ -17,6 +17,6 @@ PRODUCT_MODEL := $(PRODUCT_DEVICE)
 PRODUCT_MANUFACTURER := $(shell echo $(PRODUCT_BRAND) | tr '[:upper:]' '[:lower:]')
 PRODUCT_GMS_CLIENTID_BASE := android-doogee
 
-$(call inherit-product, device/$(shell echo $(PRODUCT_BRAND) | tr '[:upper:]' '[:lower:]')/$(PRODUCT_DEVICE)/device.mk)
+$(call inherit-product, device/doogee/$(PRODUCT_DEVICE)/device.mk)
 
 BUILD_FINGERPRINT := DOOGEE/S40/S40:9/P00610/20231213/User/release-key
