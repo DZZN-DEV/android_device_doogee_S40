@@ -91,5 +91,19 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 
-# PBRP Configuration
-PB_GO := TRUE
+# SHRP Defaults
+SHRP_MAINTAINER := DZZN-DEV
+SHRP_DEVICE_CODE := S40
+SHRP_PATH := device/doogee/$(SHRP_DEVICE_CODE)
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_Only
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usbotg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_HAS_RECOVERY_PARTITION := true
+SHRP_NO_SAR_AUTOMOUNT := true
+SHRP_LITE := true
